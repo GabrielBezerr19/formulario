@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Questionário do paciente</h1>
+    <form class="titulo" action="">
+        <div class="formu">
+            <label class="texto" for="Digite">Digite o seu nome:</label> 
+            <input class="nome" type="text" placeholder="seu nome">
+        </div>
+        <br>
+        <div>
+            <label for="">Diabético:</label>
+            <input type="radio" name="diab">sim
+            <input type="radio" name="diab">não
+        </div>
+        <br>
+        <div>
+            <label for="">Uso de medicamentos:</label>
+            <input type="radio" name="med">sim
+            <input type="radio" name="med">não
+            <input type="text" placeholder="Quais?">
+        </div>
+        <br>
+        <div>
+            <label for="">Alérgico::</label>
+            <input type="radio" name="aler">sim
+            <input type="radio" name="aler">não
+            <input type="text" placeholder="A quê?">
+        </div>
+        <br>
+        <div>
+            <label for="">Vacinas(Quais):</label>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label for="">Horário da última refeição:</label>         
+            <input type="time">
+        </div>
+    </form>    
+    <form class="mulher" action="">
+        <h2>Mulheres:</h2>
+        <div>
+            <label for="">Data da última menstruação:</label>
+            <input type="date" name="" id="">
+            <br>
+            <input type="radio" name="mens">Reular
+            <input type="radio" name="mens">Irregular
+            <input type="radio" name="mens">Menopausa
+        </div>
+        <br>
+        <div class="ciru">
+            <label for="">Já fez alguma cirurgia?</label>
+            <input type="radio" name="ciru">sim
+            <input type="radio" name="ciru">não
+            <input type="text" placeholder="Qual?">
+        </div>
+    </form>
+    <form class="homens" action="">
+        <h2>Homens:</h2>
+        <div>
+            <label for="">Exames: Toque retal:</label> 
+            <input type="radio" name="toque">sim
+            <input type="radio" name="toque">não
+            <br>
+            <label class="ultra" for="">Ultrassonografia da próstata:</label>
+            <input type="radio" name="ultra">sim
+            <input type="radio" name="ultra">não
+        </div>
+    </form>
+</body>
+</html>

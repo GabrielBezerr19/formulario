@@ -1,0 +1,31 @@
+.titulo{
+    border: none;
+    padding: 6px;
+    margin: 24px;
+}
+.ciru{
+    margin-right: auto;
+}
+.ultra{
+    
+}
+.homens{
+    padding: 6px;
+    margin: 24px;
+}
+body{
+    border: 2px solid black;
+    border-width: 2px;
+    margin: 24px;
+}
+.mulher{
+    border: 2px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    margin: 24px;
+    padding: 6px;
+    border-spacing: 0px;
+}
+h1{
+    text-align: center;
+}
