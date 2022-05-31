@@ -1,0 +1,60 @@
+body{
+    background-color: #ccc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+.cards{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+.cardtop{
+    text-align: center;
+}
+.cardgroup{
+    margin-bottom: 10px;
+}
+.cardflow > button{
+    background-image: linear-gradient(to right, #ffffff, #f00);
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+    border: 0px;
+    outline: 0px;
+}
+.img{
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+.titulo{
+    color: red;
+}
+.cardgroup > label{
+    color: black;
+    display: block;
+}
+.cardgroup > input{
+    border-radius: 5px;
+    outline: 0px;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+}
+.cardflow > label{
+    color: black;
+    display: block;
+}
+.cardflow > input{
+    outline: 0px;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+}
